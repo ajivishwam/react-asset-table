@@ -1,6 +1,6 @@
 import './App.css';
 import {useState,useEffect} from 'react';
-import AssetTable from './Components/Table/Table';
+import AssetTable from './components/Table/Table';
 
 function App() {
   const [cryptoData,setCryptoData] = useState([]);
