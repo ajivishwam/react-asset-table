@@ -1,0 +1,47 @@
+[
+    {
+        "name": "Cryptocurrency",
+        "value": ["image", "name"]
+    },
+    {
+        "name": "Price",
+        "value": "current_price",
+        "format": {
+            "type": "currency",
+            "currency": "EUR"
+        }
+    },
+    {
+        "name": "Market Cap",
+        "value": "market_cap",
+        "format": {
+            "type": "millionsDecimal"
+        }
+    },
+    {
+        "name": "Total Volume",
+        "value": "total_volume",
+        "format": {
+            "type": "millionsDecimal"
+        }
+    },
+    {
+        "name": "Price Change 24h ",
+        "value": "price_change_24h",
+        "format": {
+            "type": "currency",
+            "currency": "EUR"
+        }
+    },
+    {
+        "name": "Price Percentage 24h",
+        "value": "price_change_percentage_24h",
+        "format": {
+            "type": "percent"
+        }
+    },
+    {
+        "name": "Price Trend",
+        "value": "trend"
+    }
+]
